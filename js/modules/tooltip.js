@@ -1,22 +1,12 @@
 export default class Tooltip {
   constructor(tooltips) {
     this.tooltips = document.querySelectorAll(tooltips);
-<<<<<<< HEAD
     // bind do objeto da classe aos callback
     this.onMouseLeave = this.onMouseLeave.bind(this);
     this.onMouseMove = this.onMouseMove.bind(this);
     this.onMouseOver = this.onMouseOver.bind(this);
   }
 
-=======
-
-    // bind do objeto da classe aos callback
-    this.onMouseLeave = this.onMouseLeave.bind(this);
-    this.onMouseMove = this.onMouseMove.bind(this);
-    this.onMouseOver = this.onMouseOver.bind(this);
-  }
-
->>>>>>> 44b10a3bbc2e6592800ff778f1d7ebf39529252e
   // Move o tooltip com a base em seus estilos
   // de acordo com a posição do mouse
   onMouseMove(event) {
