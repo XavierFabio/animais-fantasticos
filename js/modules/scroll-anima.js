@@ -7,7 +7,7 @@ export default class ScrollAnima {
 
     this.checkDistance = debounce(this.checkDistance.bind(this), 50);
   }
-
+  
   // Pega a distancia de cada item em relação
   // ao topo do site
   getDistance() {
