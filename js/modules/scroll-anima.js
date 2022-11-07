@@ -3,7 +3,7 @@ export default class ScrollAnima {
     this.sections = document.querySelectorAll(sections);
     this.windowMetade = window.innerHeight * 0.6;
 
-    this.animaScroll = this.checkDistance.bind(this);
+    this.checkDistance = this.checkDistance.bind(this);
   }
 
   // Pega a distancia de cada item em relação
